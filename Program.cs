@@ -91,3 +91,59 @@ Console.Write(x + " " );
 }
 x++;
 } */
+
+
+
+
+
+
+/* //5. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа..
+
+int number1 = new Random().Next(100,1000);
+Console.WriteLine(number1);
+Console.WriteLine(((number1-number1%10)/10)%10); */
+
+
+
+/* //6. Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. 
+
+Console.Write("Введи число: ");
+
+int anyNumber = Convert.ToInt32(Console.ReadLine());
+
+string anyNumberText = Convert.ToString(anyNumber);
+
+if (anyNumberText.Length > 2)
+{
+    Console.WriteLine("третья цифра -> " + anyNumberText[2]);
+}
+else
+{
+    Console.WriteLine("-> третьей цифры нет");
+} */
+
+
+
+
+
+/* //7.Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+Console.Write("Введи число: ");
+
+int a = Convert.ToInt32(Console.ReadLine());
+
+if (a == 6 || a == 7)
+{
+    Console.WriteLine("Этот день выходной");
+}
+else
+
+if (a > 0 || a < 8)
+{
+    Console.WriteLine("Это будний день");
+}
+else
+{
+    Console.WriteLine("Такого дня недели не существует");
+}
+ */
